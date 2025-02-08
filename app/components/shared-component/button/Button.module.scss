@@ -1,0 +1,43 @@
+.button {
+    padding: 15px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  
+    &.primary {
+      background-color: #C5A377;
+      color: white;
+    }
+  
+    &.secondary {
+      background-color: #293C7C;
+      color: white;
+    }
+  
+    &.outline {
+      background: transparent;
+      border: 2px solid;
+      
+      &.primary {
+        color: #C5A377;
+        border-color: #C5A377;
+      }
+  
+      &.secondary {
+        color: #293C7C;
+        border-color: #293C7C;
+      }
+    }
+  
+    &.fullWidth {
+      width: 100%;
+    }
+  
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+  
